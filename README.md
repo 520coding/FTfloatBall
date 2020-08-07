@@ -20,6 +20,9 @@ it, simply add the following line to your Podfile:
 pod 'FTfloatBall'
 ```
 
+## Demo
+![Image text](https://github.com/Takemoto-xie/resource/blob/master/floatball/demo.gif)
+
 ## Author
 
 794751446@qq.com, 1085192695@qq.com
