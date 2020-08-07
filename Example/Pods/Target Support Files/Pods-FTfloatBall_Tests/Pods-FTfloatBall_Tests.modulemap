@@ -1,0 +1,6 @@
+framework module Pods_FTfloatBall_Tests {
+  umbrella header "Pods-FTfloatBall_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -22,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		987AB9D124DD4222003880CA /* FTfloatBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 987AB9CF24DD4221003880CA /* FTfloatBall.m */; };
+		987AB9D324DD4260003880CA /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 987AB9D224DD4260003880CA /* background.jpg */; };
 		AD82B6410925EC28BE06348A /* Pods_FTfloatBall_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C28AB8B2B7DADD76053A50 /* Pods_FTfloatBall_Example.framework */; };
 		E1CAA1C80F8093DCC8130FA8 /* Pods_FTfloatBall_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21AB201B34F82238E5CB1AE0 /* Pods_FTfloatBall_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -60,12 +62,15 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8BF77EF19187387F8CF1E585 /* FTfloatBall.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FTfloatBall.podspec; path = ../FTfloatBall.podspec; sourceTree = "<group>"; };
+		8BF77EF19187387F8CF1E585 /* FTfloatBall.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FTfloatBall.podspec; path = ../FTfloatBall.podspec; sourceTree = "<group>"; };
 		8BF8B55304A733D0B873613D /* Pods-FTfloatBall_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTfloatBall_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FTfloatBall_Tests/Pods-FTfloatBall_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		97A63BD4FB535034673B3883 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		97A63BD4FB535034673B3883 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		987AB9CF24DD4221003880CA /* FTfloatBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTfloatBall.m; sourceTree = "<group>"; };
+		987AB9D024DD4221003880CA /* FTfloatBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTfloatBall.h; sourceTree = "<group>"; };
+		987AB9D224DD4260003880CA /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		C386C880B252EB3EE6B30CC7 /* Pods-FTfloatBall_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTfloatBall_Tests.release.xcconfig"; path = "Target Support Files/Pods-FTfloatBall_Tests/Pods-FTfloatBall_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CBBF99835E915F70EEFE73D4 /* Pods-FTfloatBall_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTfloatBall_Example.release.xcconfig"; path = "Target Support Files/Pods-FTfloatBall_Example/Pods-FTfloatBall_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CE93C4C2746F39B3B1AC928E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CE93C4C2746F39B3B1AC928E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E5C28AB8B2B7DADD76053A50 /* Pods_FTfloatBall_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTfloatBall_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,6 +137,9 @@
 		6003F593195388D20070C39A /* Example for FTfloatBall */ = {
 			isa = PBXGroup;
 			children = (
+				987AB9D224DD4260003880CA /* background.jpg */,
+				987AB9D024DD4221003880CA /* FTfloatBall.h */,
+				987AB9CF24DD4221003880CA /* FTfloatBall.m */,
 				6003F59C195388D20070C39A /* FTAppDelegate.h */,
 				6003F59D195388D20070C39A /* FTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +201,6 @@
 				8BF8B55304A733D0B873613D /* Pods-FTfloatBall_Tests.debug.xcconfig */,
 				C386C880B252EB3EE6B30CC7 /* Pods-FTfloatBall_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -278,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				987AB9D324DD4260003880CA /* background.jpg in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -367,6 +376,7 @@
 				6003F59E195388D20070C39A /* FTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				987AB9D124DD4222003880CA /* FTfloatBall.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

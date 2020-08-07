@@ -1,0 +1,16 @@
+PODS:
+  - FTfloatBall (0.1.0)
+
+DEPENDENCIES:
+  - FTfloatBall (from `../`)
+
+EXTERNAL SOURCES:
+  FTfloatBall:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FTfloatBall: 537a2647b345d9118921ac1127a699ea1a1f8d16
+
+PODFILE CHECKSUM: b4ceed96bfc76fea9c83ba1204c69bb8180b2c24
+
+COCOAPODS: 1.9.3
