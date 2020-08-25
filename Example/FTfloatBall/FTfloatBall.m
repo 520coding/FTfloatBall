@@ -122,14 +122,14 @@ static FTfloatBall *_floatBall = nil;
     self.contentView.alpha = 0;
     int i = 1;
     for (UIButton *btn in self.buttonArray) {
-        [btn setCenter:CGPointMake(btn.center.x - self.buttonWidth * i - 2, btn.center.y) ];
+         [btn setCenter:CGPointMake(btn.center.x - self.buttonWidth * i - 2, btn.center.y) ];
         i++;
     }
     [UIView animateWithDuration:0.25 animations:^{
         for (UIButton *btn in self.buttonArray) {
             btn.alpha = 0;
         }
-        if (self.frame.origin.x <= kScreenWidth / 2) {
+        if (self.center.x <= kScreenWidth / 2) {
             [self setFrame:CGRectMake(self.frame.origin.x, self.frame.origin.y, self.buttonWidth, self.buttonWidth)];
         } else {
             self.baseButton.frame = CGRectMake(0, 0, self.buttonWidth, self.buttonWidth);
@@ -146,7 +146,7 @@ static FTfloatBall *_floatBall = nil;
 
 - (void)btnShow {
     self.alpha = 1;
-    if (self.frame.origin.x <= kScreenWidth / 2) {
+    if (self.center.x <= kScreenWidth / 2) {
         [self resetContentview];
         [self setFrame:CGRectMake(0, self.frame.origin.y, _baseButton.frame.size.width + self.buttonWidth * self.buttonArray.count, self.buttonWidth)];
     } else {
