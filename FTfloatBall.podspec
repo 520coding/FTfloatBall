@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FTfloatBall'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'ios 悬浮球 floatBall'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ ios悬浮球，可拖动的悬浮球，自动吸附边缘，类似ios的辅助�
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '520coding' => '1085192695@qq.com,794751446@qq.com' }
-  s.source           = { :git => 'https://github.com/520coding/FTdashboad.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/520coding/FTfloatBall.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
